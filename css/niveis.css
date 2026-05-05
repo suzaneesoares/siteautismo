@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8faff;
+    color: #2f3f59;
+    line-height: 1.6;
+}
+
+/* TOPO */
+header {
+    background-color: #C8D5F1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+}
+
+.search-box {
+    background: #f8faff;
+    padding: 6px 16px;
+    border-radius: 16px;
+    width: 520px;
+    max-width: 92%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #f8faff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.search-icon {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.search-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #4a4a4a;
+    background: transparent;
+    padding: 8px 42px 8px 0;
+}
+
+.search-box input::placeholder {
+    color: #9e9e9e;
+}
+
+nav {
+    background-color: #e7eaefc8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.container {
+    background: transparent;
+    margin: 30px auto;
+    padding: 20px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text {
+    max-width: 60%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.nivel {
+    margin-bottom: 20px;
+}
+
+
+.image img {
+    width: 700px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.image-below {
+    width: 80%;
+    max-width: 1140px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tea-image {
+    display: block;
+    width: 280px;
+    max-width: 280px;
+    border-radius: 18px;
+}
+
+.puzzle img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.puzzle {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.puzzle span {
+    font-size: 20px;
+    margin: 2px;
+}
+
+footer.rodape {
+    background-color: #C8D5F1;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer.rodape p {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.container {
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.text {
+    max-width: 55%;
+}
+
+.puzzle img {
+    width: 400px;
+}
+.nivel{
+    font-family:'Literata',serif;
+    font-size: 1 rem;
+    margin-bottom: 20px;
+
+}
+.text{
+    font-family:'Literata',serif;
+    font-size: 1 rem;
+    margin-bottom: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: #f2f5fc;
+    padding: 15px 0;
+    margin: 0 -50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    border-bottom: 1px solid #666;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.rodape{
+    font-family:'Literata',serif;
+    font-size: 1 rem;
+    margin-bottom: 20px;
+}
+.search{
+    font-family:'Literata',serif;
+    font-size: 1 rem;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Literata', serif;
+    background-color: #f8faff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header e Busca */
+header {
+    padding: 15px 50px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #c8d5f1;
+    padding: 15px 50px;
+    margin: 0 -50px;
+}
+
+/* Tamanho da logo */
+.logo {
+    position: absolute;
+    left: 50px;
+    height: 60px;
+}
+
+.search-container {
+    background: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.search-container input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
+
+/* Tamanho da lupa */
+.search-container button img {
+    height: 25px; 
+}
+
+/* Menu de Navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: #f2f5fc;
+    padding: 15px 0;
+    margin: 0 -50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    border-bottom: 1px solid #666;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+/* Conteúdo Principal */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero-text h1 {
+    font-family: 'Literata', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+/* Seção Inferior */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cartilhas {
+    width: 60%;
+}
+
+.cartilhas h2 {
+    font-family: 'Literata', serif;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.cta-section {
+    text-align: center;
+    width: 30%;
+}
+
+.puzzle-icons {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Tamanho do quebra-cabeça */
+.puzzle-piece {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.btn-saiba-mais {
+    background-color: #cbd7f1;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    font-family: 'Literata', serif;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #c8d5f1;
+}
+
+/* Rodapé */
+footer {
+    background-color: #c8d5f1;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Literata', serif;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

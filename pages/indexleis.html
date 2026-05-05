@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IPR - Inclusão na Prática</title>
+    <link rel="stylesheet" href="../css/leis.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topo">
+            <div class="logo"><img src="../img/logo.png" alt=""></div>
+
+            <div class="search-box">
+                <input list="nav-options" type="text" id="searchInput" placeholder="Faça Sua Pesquisa Aqui">
+                <datalist id="nav-options">
+                    <option value="Níveis de Suporte">
+                    <option value="Características">
+                    <option value="Diagnóstico">
+                    <option value="Convivendo com o TEA">
+                    <option value="Página Inicial"></option>
+                </datalist>
+                <button type="button" onclick="buscar()">
+                    <img src="../img/pesquisa.png" alt="Buscar">
+                </button>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                   <a href="../pages/indexnivel.html"> Níveis de Suporte</a>
+                    <div class="dropdown">Clique para acessar</div>
+                </li>
+
+                <li>
+                   <a href="../pages/indexcaracteristicas.html"> Características</a>
+                    <div class="dropdown">Clique para acessar</div>
+                </li>
+
+                <li>
+                    <a href="../pages/indexdiagnostico.html"> Diagnóstico</a>
+                    <div class="dropdown">Clique para acessar</div>
+                </li>
+
+                <li>
+                    <a href="../pages/indexconvivendo.html">Convivendo com o TEA</a>
+                    <div class="dropdown">Clique para acessar</div>
+                </li>
+
+                 <li>
+                    <a href="../index.html">Página Inicial</a>
+                    <div class="dropdown">Clique para acessar</div>
+                </li>
+            </ul>
+        </nav>
+
+        <body>
+            <h1>Leis e Direitos</h1>
+
+            <div class="container">
+
+                <div class="card">
+                    Lei Berenice Piana (Lei nº 12.764/2012): Institui a Política Nacional de Proteção dos Direitos da
+                    Pessoa com TEA, garantindo proteção, diagnóstico precoce, atendimento multiprofissional e acesso à
+                    educação e mercado de trabalho.
+
+                    <br>
+                    <button onclick="lei1()">Saiba mais</button>
+                </div>
+
+                <div class="card">
+                    Lei Brasileira de Inclusão (LBI - Lei nº 13.146/2015): Garante igualdade e protege contra
+                    discriminação, assegurando o direito a viver de forma independente.
+
+                    <br>
+                    <button onclick="lei2()">Saiba mais</button>
+                </div>
+            </div>
+            <div class="imagem-baixo">
+                <img src="../img/quebra.png" alt="Imagem adicional">
+            </div>
+
+            <footer>
+                IPR: Inclusão na Prática
+            </footer>
+
+            <script src="script.js"></script>
+
+        </body>
+
+</html>
+
+<script src="../js/leis.js"></script>
+
+</body>
+
+</html>

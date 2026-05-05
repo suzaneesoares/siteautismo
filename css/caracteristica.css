@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #2f3f59;
+    line-height: 1.6;
+}
+
+/* TOPO */
+header {
+    background-color: #C8D5F1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+}
+
+.search-box {
+    background: #f8faff;
+    padding: 6px 16px;
+    border-radius: 16px;
+    width: 520px;
+    max-width: 92%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.search-icon {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.search-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #4a4a4a;
+    background: transparent;
+    padding: 8px 42px 8px 0;
+}
+
+.search-box input::placeholder {
+    color: #f2f5fc;
+}
+
+/* MENU */
+nav {
+    background-color: #f8faff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.text {
+    max-width: 60%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.nivel {
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 700px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.puzzle img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.puzzle {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.puzzle span {
+    font-size: 20px;
+    margin: 2px;
+}
+
+footer.rodape {
+    background-color: #C8D5F1;
+    color: #f8faff;
+    text-align: center;
+    padding: 18px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer.rodape p {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.text {
+    max-width: 55%;
+}
+
+.puzzle img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.puzzle {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end; /* joga pra direita */
+    padding-right: 60px; /* ajusta posição */
+}
+
+.tea image {
+    width: 280px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
